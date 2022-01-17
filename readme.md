@@ -1,4 +1,22 @@
-# sirv ![CI](https://github.com/lukeed/sirv/workflows/CI/badge.svg)
+# (Fork of) sirv ![CI](https://github.com/lukeed/sirv/workflows/CI/badge.svg)
+
+## This is a temporary fork. Use at your own risk.
+
+Includes fixes for:
+
+  - [Only handle GET requests that are not WebSocket requests](https://github.com/lukeed/sirv/issues/127)
+  - [sirv tests fail due to whitespace differences in terminal output on cli help test](https://github.com/lukeed/sirv/issues/129)
+
+Implemented in the pull requests:
+
+  - [fix: only handle get requests that are not websocket requests](https://github.com/lukeed/sirv/pull/128)
+  - [fix: disregard whitespace in cli help text test](https://github.com/lukeed/sirv/pull/130)
+
+It is my intention to remove this fork once/if the first pull request makes it into sirv (I can live without the second one for the time being).
+
+I’m pushing this out to npm because installing the package via git doesn’t seem to work in my npm-based project. Likely some oddness with the monorepo/pnpm setup but I don’t have time to debug/fix that now.
+
+_Original readme continues:_
 
 > An optimized middleware & CLI application for serving static files~!
 

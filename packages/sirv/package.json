@@ -1,8 +1,8 @@
 {
-  "name": "sirv",
+  "name": "@small-tech/sirv",
   "version": "2.0.0",
-  "description": "The optimized & lightweight middleware for serving requests to static assets",
-  "repository": "lukeed/sirv",
+  "description": "(Fork) The optimized & lightweight middleware for serving requests to static assets",
+  "repository": "aral/sirv",
   "module": "build.mjs",
   "types": "sirv.d.ts",
   "main": "build.js",
